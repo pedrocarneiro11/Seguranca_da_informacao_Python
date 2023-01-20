@@ -6,11 +6,11 @@ try:
     print('\nCliente Socket Criado Com Sucesso')
 
     host = 'localhost'
-    port = 5433
-    message = "Hello World 123"
+    port = 5432
+    message = " "
 
     print('\nCliente: ' + message)
-    s.sendto(message.encode(), (host, 5433))
+    s.sendto(message.encode(), (host, port))
 
     data, server = s.recvfrom(4096)
     data = data.decode()
