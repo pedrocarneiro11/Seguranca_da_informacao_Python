@@ -1,7 +1,7 @@
 import random
 import string
 
-size = 16
+size = int(input("Digite o tamanho desejado para a senha: "))
 
 chars = string.ascii_letters + string.digits + 'çÇ!@#$%&*()-+[]{}^~/?,.'
 
