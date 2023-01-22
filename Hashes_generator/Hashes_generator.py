@@ -1,14 +1,14 @@
 import hashlib
 
-menu = 0
+menu: int = 0
 string = input("Digite algo: ")
-while 0 >= int(menu) or int(menu) >= 5:
-    menu = input(''' ### MENU - ESCOLHA O TIPO DE HASH ###
+while 0 >= menu or menu >= 5:
+    menu = int(input(''' ### MENU - ESCOLHA O TIPO DE HASH ###
                 1 - MD5
                 2 - SHA1
                 3 - SHA256
                 4 - SHA512
-                Digite o numero do hash a ser gerado: ''')
+                Digite o numero do tipo de hash a ser gerado: '''))
 
 if int(menu) == 1:
     result = hashlib.md5(string.encode('utf-8'))
