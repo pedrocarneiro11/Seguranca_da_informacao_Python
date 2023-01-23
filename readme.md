@@ -15,3 +15,6 @@
 ## - Verificador de numeros de telefone 
 ## - Web Crawler 
 ## - Web Scrapper
+## - Verificador de telefone
+## - Ocultador de arquivos
+## - Ferramenta grafica para abrir o navegador
