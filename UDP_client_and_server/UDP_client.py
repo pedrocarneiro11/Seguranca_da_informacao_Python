@@ -17,10 +17,7 @@ try:
     print("Client: " + data)
 
 except socket.error as e:
-    pass
-    # 2o bloco com erro
-    # print("2o bloco try")
-    # print("Nao foi possivel criar o Cliente Socket, erro: {}".format(e))
+    print(e)
 
 finally:
     print("Cliente: Fechando a conexao...")
